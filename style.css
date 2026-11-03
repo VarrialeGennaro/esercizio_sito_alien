@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #090e19;
 }
 
 /*----------NAV BAR-*/
@@ -14,7 +14,7 @@ body{
     width: 80%;
     height: 100px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: #090e19;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     display: flex;
@@ -72,16 +72,6 @@ body{
 
 /*----------HERO SECTION*/
 
-.video-background{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;   
-    height: 100vh;  
-    object-fit: cover; 
-    z-index: -2;    
-}
-
 .container-hero{
     width: 80%;
     height: 100vh;
@@ -113,6 +103,9 @@ body{
     margin-right: 50px;
     width: 500px;
     height: 300px;
+    border: 1px solid rgba(66, 220, 125, 0.4);
+    background-position: center;
+    object-fit: cover;
 }
 
 
