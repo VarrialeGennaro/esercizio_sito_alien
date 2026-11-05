@@ -12,7 +12,7 @@
 
     include "navbar.php";
 
-    include "search-bar.php";
+    include "slideBar.php";
 
     include "hero.php";
 
