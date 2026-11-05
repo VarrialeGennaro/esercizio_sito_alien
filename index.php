@@ -12,6 +12,8 @@
 
     include "navbar.php";
 
+    include "search-bar.php";
+
     include "hero.php";
 
     ?>
